@@ -1,6 +1,5 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import {View, Text, StyleSheet} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import React from 'react';
 import MainPage from './MainPage';
@@ -44,13 +43,5 @@ function App() {
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
 
 export default App;
